@@ -1,0 +1,88 @@
+body {
+    margin: 0 auto;
+}
+
+#body {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    font-family: "Space Mono", sans-serif;
+}
+
+#al {
+    border-right-style: solid;
+    color: rgb(63, 63, 63);
+    flex: 1;
+}
+
+#al h2 {
+    text-indent: 5px;
+    border-bottom-style: solid;
+    border-color: rgb(63, 63, 63);
+    margin-bottom: 0px;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 40px;
+    font-family: "Libre Caslon Text", sans-serif;
+    font-size: 20px;
+}
+
+#nav-bar a {
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: rgb(63, 63, 63);
+}
+
+#nav-bar a:link,
+a:visited {
+    display: block;
+    padding: 12px 5px 12px 20px;
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+}
+
+.menu {
+    max-height: 40vw;
+    overflow-y: auto;
+}
+
+#main-doc {
+    flex: 3;
+    position: relative;
+    margin: 30px 50px;
+}
+
+#main-doc p {
+    line-height: 20px;
+}
+
+#main-doc ul {
+    line-height: 30px;
+}
+
+.main-section {
+    font-family: "Courier New", monospace;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 10px;
+    }
+
+    #body {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: left;
+    }
+
+    #nav-bar {
+        width: 100% !important;
+        font-size: 15px;
+    }
+
+    #al {
+        border-right-style: none;
+    }
+}

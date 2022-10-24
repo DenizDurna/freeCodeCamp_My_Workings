@@ -1,0 +1,84 @@
+#main {
+    background-color: hsl(266, 2%, 95%);
+    color: #000000;
+    font-size: 17px;
+    font-family: "Zen Kurenaido", sans-seri;
+    text-align: center;
+    margin: 4px 0px 1em 0px;
+    line-height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    line-height: 20px;
+  }
+  
+  #title {
+    padding-top: 10px;
+    color: hsl(210, 1%, 29%);
+    font-size: 20px;
+  }
+  
+  #header {
+    margin-bottom: 20px;
+  }
+  
+  #img-div {
+    background-color: white;
+    margin: 0px 0.5em;
+  }
+  
+  #image {
+    max-width: 98%;
+    margin-top: 15px;
+  }
+  
+  #img-caption {
+    padding-bottom: 1em;
+  }
+  
+  #tribute-info {
+    color: hsl(210, 1%, 29%);
+    margin-bottom: 40px;
+  }
+  
+  #list {
+    max-width: 600px;
+    text-align: justify;
+    margin: auto;
+  }
+  
+  .al {
+    max-width: 600px;
+    text-align: justify;
+    margin: auto;
+    font-style: italic;
+    line-height: 30px;
+  }
+  
+  li {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+  }
+  
+  #tribute-link {
+    margin-top: 20px;
+    margin-bottom: 3%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+  }
+  
+  a {
+  }
+  
+  @media (max-width: 750px) {
+    #list {
+      margin-right: 20px;
+    }
+  
+    .al {
+      margin: 0px 20px;
+    }
+  }
+  

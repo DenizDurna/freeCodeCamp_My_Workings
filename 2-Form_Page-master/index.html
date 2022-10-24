@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>Membership Form</title>
+</head>
+
+<body>
+    <div id="main">
+
+        <div>
+            <h1 id="title">Yeni Anket Formu</h1>
+            <p id="description">Anketimize katılmaya zaman ayırdınığınız için teşekkür ederiz.</p>
+        </div>
+
+        <div id="form">
+            <form id="survey-form" action="#">
+                <br>
+                <div><br>
+                    <label id="name-label" for="name">Ad Soyad:</label><br>
+                    <input type="text" class="text1" placeholder="Adınızı ve  Soyadınızı giriniz" name="name" id="name"
+                        required>
+                </div>
+
+                <div class="input">
+                    <label id="email-label" for="email">Email</label><br>
+                    <input type="email" class="text1" name="email" id="email" placeholder="e-mail adresinizi giriniz"
+                        required>
+
+                </div>
+
+                <div class="input">
+                    <label id="number-label" for="number">Yaş</label><br>
+                    <input type="number" min="10" max="99" class="text1" name="number" id="number"
+                        placeholder="Yaşınızı Giriniz" required>
+                </div>
+
+                <div class="input">
+                    <label for="durum">Durumunuza uygun seçim yapınız</label><br>
+                    <select id="dropdown" name="durum" id="duruma" class="select1" required>
+                        <option disabled selected value> Bir Seçim yapınız</option>
+                        <option> Öğrenci</option>
+                        <option> Tam Zamanlı Çalışan</option>
+                        <option> Memur</option>
+                        <option> Belirtmeyen</option>
+                        <option> Boş Geç</option>
+                    </select>
+                </div>
+
+                <div class="radio">
+                    <label for="oneri">Bizi Başkasına önerirmisiniz ?</label><br>
+                    <label for=Onerim><input type="radio" id="Onerim" value="Onerim" name="oneri"
+                            checked>Öneririm</label><br>
+                    <label for="onermem"><input type="radio" id="onermem" value="Onerim"
+                            name="oneri">Önermem</label><br>
+                    <label for="emind"><input type="radio" id="emind" value="Onerim" name="oneri">Emin değilim</label>
+                </div>
+                <br>
+                <div>
+                    <label for="ter">Bu Siteye nasıl ulaştınız ?</label><br>
+                    <select id="ter" name="ter" class="select1" required>
+                        <option disabled selected value> Bir Seçim yapınız </option>
+                        <option>Arkadaşım önerdi</option>
+                        <option>Arama motorları</option>
+                        <option>Reklam</option>
+                        <option>Diğer</option>
+                    </select>
+                </div>
+
+                <div class="radio">
+                    <label for="hobi">Hobileriniz Nelerdir ?</label><br>
+                    <label for="kitap"><input type="checkbox" id="kitap" value="kitap" name="hobi">Kitap
+                        Okumak</label><br>
+                    <label for="sinema"><input type="checkbox" id="sinema" value="sinema" name="hobi">Sinema</label><br>
+                    <label for="Gezme"><input type="checkbox" id="Gezme" value="gezmek" name="hobi">Gezmek</label><br>
+                    <label for="Spor"><input type="checkbox" id="Spor" value="spor" name="hobi">Spor yapmak</label> <br>
+                </div>
+                <br>
+
+                <div>
+                    <textarea placeholder="Görüşlerinizi bizimle paylaşın..." rows="5" cols="90" id="Oneribox"
+                        name="OneriBox"></textarea>
+
+                </div>
+
+                <div>
+                    <input id="submit" class="text1" type="submit">
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

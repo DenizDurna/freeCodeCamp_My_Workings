@@ -1,0 +1,317 @@
+link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">body {
+    margin: 0;
+
+}
+
+#bir {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    margin-top: -1.5em;
+    z-index: 2;
+    justify-content: space-between;
+    font-size: x-large;
+    font-family: 'Fjalla One', sans-serif;
+    top: 1em;
+
+}
+
+#header-img img {
+    max-width: 90vw;
+}
+
+#nav-bar {
+    padding-left: 2em;
+    display: flex;
+    margin-top: 2em;
+
+}
+
+.nav-link {
+    margin-right: 8vw;
+
+}
+
+
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+
+}
+
+main {
+    text-align: center;
+    position: relative;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+#iki {}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+.mail {
+    height: 2em;
+    width: 25em;
+    border-radius: 1em;
+}
+
+input {
+    padding-left: 1em;
+}
+
+
+
+
+.maus {
+    cursor: pointer;
+    background-color: darkgoldenrod;
+    height: 30px;
+    width: 100px;
+    border-width: 0;
+    border-radius: 3px;
+
+}
+
+.maus:hover {
+    background-color: darkorange;
+}
+
+#uc {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.ek {
+
+    display: flex;
+}
+
+
+.ek img {
+    width: 70px;
+    padding: 10px;
+}
+
+.servism {
+    width: 600px;
+}
+
+
+.servism h2 {
+    width: 100%;
+    margin: 10px 0px 0px 40px;
+
+}
+
+.servism p {
+
+    width: 100%;
+    margin: 1px 10px 1px 40px;
+}
+
+
+#bes {
+
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.urun {
+    width: 250px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px 10px 10px 10px;
+}
+
+.urun h2 {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.781);
+    margin: 0%;
+    font-size: 25px;
+}
+
+.urun h3 {
+    font-size: 24px;
+
+}
+
+.urun [ type="submit"] {
+    border-width: 0;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+#alti {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+#altia {
+    background-color: rgba(128, 128, 128, 0.781);
+    width: 800px;
+    height: 60px;
+    padding: 15px 15px 0px 0px;
+    border-radius: 3px;
+    text-align: end;
+
+}
+
+#altia ul {
+    margin: 10px 60px 0px -52px;
+
+}
+
+#altia li {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#altia p {
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+
+
+#altia a:link,
+a:visited {
+    color: rgba(0, 0, 0, 0.568);
+    text-decoration: none;
+
+
+}
+
+@media (max-width: 1000px) {
+    #nav-bar {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0.5em;
+    }
+
+    .nav-link {
+        margin-top: 0.1em;
+
+    }
+
+    @media (max-width: 750px) {
+        #bir {
+            width: 100%;
+            flex-direction: column;
+            font-size: large;
+        }
+
+        #nav-bar {
+            flex-direction: row;
+            margin: auto;
+            margin-top: 0em;
+
+        }
+
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            margin: 0px 5% 0px 5%;
+            width: 90%;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 90%;
+        }
+
+
+
+
+
+        #iki {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .mail {
+            width: 70%;
+
+        }
+
+        .servism {
+            width: 70%;
+        }
+
+
+
+    }
+
+
+    @media (max-width: 500px) {
+        .ek {
+            flex-direction: column;
+        }
+
+        .ek img {
+            padding: 0px;
+            margin-top: 25px;
+        }
+
+
+
+        .ek img {
+            padding: 10px;
+        }
+
+        .servism {
+            width: 90%;
+            text-align: center;
+        }
+
+
+        .servism h2 {
+            width: 100%;
+            margin: 0px;
+            margin-left: -5vw;
+
+        }
+
+        .servism p {
+            width: 100%;
+            margin: 0px;
+            margin-left: -5vw;
+        }
+
+        #bes {
+            margin: auto;
+            flex-direction: column;
+        }
+
+        .servism {
+            padding-left: 10%;
+        }
+
+
+    }

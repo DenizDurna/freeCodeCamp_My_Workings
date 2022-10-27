@@ -1,4 +1,4 @@
-# Live ==> [Product Preview]().
+# Live ==> [Product Preview](https://elegant-tartufo-c6e254.netlify.app/).
 
 
 # Random Quote Machine

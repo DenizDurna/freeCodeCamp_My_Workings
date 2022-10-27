@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Noto+Sans+JP:wght@900&display=swap");
+
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #667674;
+  font-family: "Orbitron", sans-serif;
+  user-select: none;
+}
+
+#equalss {
+  background-color: #4f504f;
+  width: 324px;
+  border: solid;
+  border-radius: 2%;
+  padding: 10px;
+}
+
+#display {
+  background-color: DarkSeaGreen;
+  min-height: 75px;
+  width: 300px;
+  margin: 10px auto;
+  padding: 5px;
+}
+#display p {
+  word-wrap: break-word;
+  min-height: 30px;
+  margin: 1px;
+  line-height: 1.6;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.total {
+  font-size: 15px !important;
+  color: #433c64 !important;
+  font-family: Calculator;
+}
+
+.buttonGroup {
+  font-family: "Audiowide", cursive;
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+}
+
+.button {
+  background: Azure;
+  opacity: 0.7;
+  margin: 3px;
+  text-align: center;
+  width: 70px;
+  height: 40px;
+  padding-top: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px hsl(75, 100%, 50%);
+  border: 2px solid black;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+#ac {
+  background: red;
+  color: white;
+}
+
+#zero {
+  width: 150px;
+}
+
+#back {
+  font-family: "Noto Sans JP", sans-serif;
+  background: blue;
+  color: white;
+  font-weight: bold;
+}
+#division,
+#multiplication,
+#subtraction,
+#addition,
+#equal {
+  background: #8b8b8a;
+}
+
+#equal {
+  height: 110px;
+  margin-bottom: -180px;
+}

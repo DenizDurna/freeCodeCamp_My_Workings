@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@700&display=swap");
+
+html {
+  font-size: 5px;
+  user-select: none
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+a:hover {
+  text-decoration-line: none;
+  opacity: 0.85;
+}
+
+a:active {
+  text-decoration-line: none;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+q {
+  font-size: 10rem;
+  quotes: "“" " ";
+}
+
+#quote-box {
+  background-color: white;
+  border-radius: 5px;
+  max-width: 530px;
+  height: auto;
+  margin: 1vw;
+  padding: 5rem 2rem;
+}
+
+#text {
+  font-size: 6rem;
+  font-family: "Gentium Plus", serif;
+  text-align: center;
+}
+
+#author {
+
+  font-size: 4rem;
+  text-align: end;
+  margin: 0rem 10rem 5rem 10rem;
+}
+
+#albutton {
+  font-size: 5rem;
+  text-align: start;
+  margin: 1rem 10rem;
+}
+
+.button {
+  margin: 0rem 1rem 5rem 0rem;
+  padding: 1rem 4rem;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+. .button:hover,
+.button:active,
+.button:visited,
+.button:link {
+  text-decoration: none;
+}
+
+#tum-quote {
+  padding: 1rem 5rem;
+}
+
+button#new-quote {
+  font-size: 4rem;
+  float: right;
+  margin: -1.5rem 1rem 0rem 0rem;
+  padding: 1.8rem;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+@media (max-width: 675px) {
+  html {
+    font-size: 3.5px;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 2.5px;
+  }
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+
+:root {
+  font-size: 15px;
+}
+
+body {
+  background-color: rgb(139, 138, 139);
+  color: black;
+}
+
+.al {
+  border: solid 1px black;
+}
+
+.title {
+  background-color: #51a9ae;
+  font-size: 2.25rem;
+  height: 4rem;
+  padding: 1rem;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.ground {
+  background-color: #cfdfd9;
+  padding: 1rem;
+  margin-top: -1rem;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.bigsmall {
+  float: right;
+  margin-right: 5px;
+}
+
+.bigsmall:hover {
+  color: #84c2c6;
+}
+
+#uparea {
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+
+#uparea textarea {
+  outline: none;
+  height: 180px;
+  width: 100%;
+  resize: vertical;
+  font-size: 1.5rem;
+}
+
+#dwnpre {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+#GreatEditor {
+  max-width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+
+#GreatEditor textarea {
+  outline: none;
+  height: 1000px;
+  width: 100%;
+  resize: vertical;
+  font-size: 1.5rem;
+}
+
+#none {
+  display: none;
+}
